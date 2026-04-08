@@ -1,0 +1,70 @@
+<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle accent -->
+  <circle cx="250" cy="200" r="180" fill="rgba(0, 209, 255, 0.1)" opacity="0.5"/>
+  
+  <!-- Table -->
+  <ellipse cx="250" cy="250" rx="140" ry="50" fill="#e8f4f8" stroke="#00D1FF" stroke-width="2"/>
+  <path d="M 110 250 Q 110 280 130 300 L 370 300 Q 390 280 390 250" fill="#f0f8fb" stroke="#00D1FF" stroke-width="2"/>
+  
+  <!-- Table legs -->
+  <rect x="160" y="300" width="8" height="60" fill="#0A2540"/>
+  <rect x="332" y="300" width="8" height="60" fill="#0A2540"/>
+  
+  <!-- Left person (sitting) -->
+  <circle cx="130" cy="120" r="18" fill="#f4a460"/>
+  <path d="M 130 138 L 130 180" stroke="#4a5899" stroke-width="3" fill="none"/>
+  <path d="M 110 150 L 130 180" stroke="#4a5899" stroke-width="3" fill="none"/>
+  <path d="M 150 150 L 130 180" stroke="#4a5899" stroke-width="3" fill="none"/>
+  <path d="M 120 180 L 110 220" stroke="#2c3e50" stroke-width="3" fill="none"/>
+  <path d="M 140 180 L 150 220" stroke="#2c3e50" stroke-width="3" fill="none"/>
+  
+  <!-- Left person laptop -->
+  <rect x="70" y="180" width="50" height="35" rx="3" fill="#34495e" stroke="#00D1FF" stroke-width="1.5"/>
+  <rect x="72" y="182" width="46" height="30" fill="#00D1FF" opacity="0.3"/>
+  <line x1="68" y1="215" x2="123" y2="215" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Center person (standing) - taller -->
+  <circle cx="250" cy="80" r="20" fill="#daa520"/>
+  <path d="M 250 100 L 250 170" stroke="#e74c3c" stroke-width="3" fill="none"/>
+  <path d="M 225 130 L 250 170" stroke="#e74c3c" stroke-width="3" fill="none"/>
+  <path d="M 275 130 L 250 170" stroke="#e74c3c" stroke-width="3" fill="none"/>
+  <path d="M 240 170 L 230 220" stroke="#2c3e50" stroke-width="3" fill="none"/>
+  <path d="M 260 170 L 270 220" stroke="#2c3e50" stroke-width="3" fill="none"/>
+  
+  <!-- Center person laptop -->
+  <rect x="200" y="140" width="55" height="38" rx="3" fill="#34495e" stroke="#00D1FF" stroke-width="1.5"/>
+  <rect x="202" y="142" width="51" height="33" fill="#00D1FF" opacity="0.3"/>
+  <circle cx="265" cy="145" r="3" fill="#00D1FF" opacity="0.6"/>
+  
+  <!-- Right person (sitting) -->
+  <circle cx="370" cy="125" r="17" fill="#f08080"/>
+  <path d="M 370 142 L 370 185" stroke="#9b59b6" stroke-width="3" fill="none"/>
+  <path d="M 350 155 L 370 185" stroke="#9b59b6" stroke-width="3" fill="none"/>
+  <path d="M 390 155 L 370 185" stroke="#9b59b6" stroke-width="3" fill="none"/>
+  <path d="M 360 185 L 350 225" stroke="#2c3e50" stroke-width="3" fill="none"/>
+  <path d="M 380 185 L 390 225" stroke="#2c3e50" stroke-width="3" fill="none"/>
+  
+  <!-- Right person laptop -->
+  <rect x="330" y="165" width="52" height="36" rx="3" fill="#34495e" stroke="#00D1FF" stroke-width="1.5"/>
+  <rect x="332" y="167" width="48" height="32" fill="#6D28D9" opacity="0.3"/>
+  <rect x="335" y="169" width="8" height="28" fill="#6D28D9" opacity="0.5"/>
+  
+  <!-- Coffee cups on table -->
+  <circle cx="180" cy="240" r="6" fill="#8b4513"/>
+  <path d="M 186 238 Q 188 240 186 244" stroke="#8b4513" stroke-width="1.5" fill="none"/>
+  
+  <circle cx="310" cy="250" r="5.5" fill="#8b4513"/>
+  <path d="M 315 248 Q 316.5 250 315 253" stroke="#8b4513" stroke-width="1.5" fill="none"/>
+  
+  <!-- Papers/documents on table -->
+  <rect x="220" y="235" width="30" height="20" fill="#e8f4f8" stroke="#00D1FF" stroke-width="1" opacity="0.8"/>
+  <line x1="225" y1="240" x2="245" y2="240" stroke="#00D1FF" stroke-width="0.5" opacity="0.6"/>
+  <line x1="225" y1="245" x2="245" y2="245" stroke="#00D1FF" stroke-width="0.5" opacity="0.6"/>
+  
+  <!-- Light rays/glow effect -->
+  <g opacity="0.3">
+    <line x1="250" y1="0" x2="250" y2="50" stroke="#00D1FF" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="150" y1="30" x2="180" y2="70" stroke="#00D1FF" stroke-width="1.5" stroke-dasharray="5,5"/>
+    <line x1="350" y1="40" x2="320" y2="80" stroke="#6D28D9" stroke-width="1.5" stroke-dasharray="5,5"/>
+  </g>
+</svg>

@@ -1,0 +1,131 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 24px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-method.whatsapp {
+  border-left: 4px solid #25d366;
+}
+
+.contact-method.whatsapp:hover {
+  background: rgba(37, 211, 102, 0.05);
+  border-color: #25d366;
+}
+
+.method-icon {
+  font-size: 28px;
+  width: 56px;
+  height: 56px;
+  background: var(--color-background-alt);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-method strong {
+  display: block;
+  font-size: 16px;
+  color: var(--color-text-primary);
+  margin-bottom: 4px;
+}
+
+.contact-method p {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Form Styling */
+.contact-form {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  font-family: inherit;
+  font-size: 15px;
+  transition: all 0.2s ease;
+  background-color: var(--color-background-alt);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-wave-cyan);
+  background-color: white;
+  box-shadow: 0 0 0 4px rgba(0, 209, 255, 0.1);
+}
+
+.form-btn {
+  width: 100%;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.form-msg {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.form-msg.success {
+  color: #16a34a;
+}
+
+.form-msg.error {
+  color: #dc2626;
+}
+
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form {
+    padding: 24px;
+  }
+}

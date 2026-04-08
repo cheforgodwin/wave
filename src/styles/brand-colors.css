@@ -1,0 +1,45 @@
+/* Wave Brand Color Palette */
+
+:root {
+  /* Primary Colors */
+  --color-deep-blue: #0A2540;
+  --color-wave-cyan: #00D1FF;
+  
+  /* Secondary Colors */
+  --color-dark-charcoal: #111827;
+  --color-soft-white: #F9FAFB;
+  
+  /* Accent / Action Colors */
+  --color-electric-purple: #6D28D9;
+  --color-success-green: #22C55E;
+  
+  /* Tints & Shades */
+  --color-deep-blue-light: #1e40af;
+  --color-deep-blue-dark: #051d3e;
+  --color-cyan-light: #33ddff;
+  --color-cyan-dark: #00a8cc;
+  --color-purple-light: #7c3aed;
+  --color-purple-dark: #5b21b6;
+  --color-green-light: #4ade80;
+  --color-green-dark: #16a34a;
+  
+  /* Neutral Colors */
+  --color-text-primary: #111827;
+  --color-text-secondary: #6b7280;
+  --color-text-light: #d1d5db;
+  --color-border: #e5e7eb;
+  --color-background: #ffffff;
+  --color-background-alt: #F9FAFB;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #0A2540 0%, #1e40af 100%);
+  --gradient-cyan: linear-gradient(135deg, #00D1FF 0%, #33ddff 100%);
+  --gradient-purple: linear-gradient(135deg, #6D28D9 0%, #7c3aed 100%);
+}
+
+/* CSS Variable Usage Guide */
+/* Brand: use --color-deep-blue, --color-wave-cyan */
+/* Backgrounds: use --color-dark-charcoal, --color-soft-white */
+/* Text Areas & Cards: use --color-soft-white */
+/* Special Features: use --color-electric-purple */
+/* Success States: use --color-success-green */
