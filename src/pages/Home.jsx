@@ -31,7 +31,7 @@ const services = [
   {
     icon: <Building2 size={32} />,
     title: 'System Architecture',
-    desc: 'Robust system design and cloud-native infrastructure built for African digital environments.'
+    desc: 'Robust system design and cloud-native infrastructure built for diverse African digital environments.'
   },
   {
     icon: <Smartphone size={32} />,
@@ -41,9 +41,9 @@ const services = [
 ];
 
 const whyWave = [
-  { icon: <Zap size={28} className="text-wave-cyan" />, title: 'Scalable Systems', desc: 'Built to grow with your business from day one.' },
+  { icon: <Zap size={28} className="text-wave-cyan" />, title: 'Scalable Systems', desc: 'Built to grow with your business across the continent.' },
   { icon: <Lock size={28} className="text-wave-cyan" />, title: 'Secure Architecture', desc: 'Enterprise-level security baked into every solution.' },
-  { icon: <Globe size={28} className="text-wave-cyan" />, title: 'Built for Africa', desc: 'Tailored to local infrastructure, networks, and users.' },
+  { icon: <Globe size={28} className="text-wave-cyan" />, title: 'Built for Africa', desc: 'Tailored to local infrastructure, networks, and users in every region.' },
   { icon: <Target size={28} className="text-wave-cyan" />, title: 'User-Focused Design', desc: 'Intuitive experiences that drive adoption and retention.' },
 ];
 
@@ -51,7 +51,7 @@ const stats = [
   { value: '5+', label: 'Products Launched', icon: <Layers size={20} /> },
   { value: '3+', label: 'Industries Served', icon: <Activity size={20} /> },
   { value: '100%', label: 'African-Built', icon: <Globe size={20} /> },
-  { value: '24/7', label: 'Uptime Target', icon: <TrendingUp size={20} /> },
+  { value: '24/7', label: 'Support Target', icon: <TrendingUp size={20} /> },
 ];
 
 export default function Home() {
@@ -67,7 +67,7 @@ export default function Home() {
             <span className="section-label">Africa's Technology Partner</span>
             <h1>Building Technology<br /><span>Solutions for Africa</span></h1>
             <p>
-              Wave is a technology company based in Africa that builds scalable digital solutions 
+              Wave is a technology company building scalable digital solutions 
               across fintech, software development, and digital infrastructure — powering the next 
               generation of African innovation.
             </p>
@@ -84,7 +84,7 @@ export default function Home() {
                 <Waves size={64} strokeWidth={1.5} color="var(--color-wave-cyan)" />
               </div>
               <div className="hero-card-label">Wave Technology</div>
-              <div className="hero-card-sub">Scalable · Secure · African</div>
+              <div className="hero-card-sub">Scalable · Secure · Pan-African</div>
             </div>
             <div className="hero-badge badge-1">
               <CreditCard size={14} /> NjangiPay Live
@@ -122,7 +122,7 @@ export default function Home() {
             </p>
             <p style={{ marginTop: '16px' }}>
               From fintech platforms to digital infrastructure, every product we build is designed 
-              for real impact in real communities.
+              for real impact in real communities across the continent.
             </p>
             <Link to="/about" className="btn btn-primary" style={{ marginTop: '32px' }}>
               Learn Our Story
@@ -151,7 +151,7 @@ export default function Home() {
             <h2 className="section-title">Solutions Built for <span>Real Impact</span></h2>
             <p className="section-subtitle">
               We deliver end-to-end technology services across the full digital spectrum — 
-              from concept to production-grade systems.
+              from concept to production-grade systems across Africa.
             </p>
           </div>
           <div className="services-grid">
@@ -184,7 +184,7 @@ export default function Home() {
               <div className="mockup-body">
                 <div className="mockup-card">
                   <div className="mockup-label">Group Balance</div>
-                  <div className="mockup-amount">XAF 2,450,000</div>
+                  <div className="mockup-amount">CFA 2,450,000</div>
                 </div>
                 <div className="mockup-row">
                   <div className="mockup-pill"><CreditCard size={14} /> Contribution</div>
@@ -203,8 +203,8 @@ export default function Home() {
             <h2 className="section-title">Introducing <span>NjangiPay</span></h2>
             <p>
               NjangiPay is Wave's premier platform for community savings and lending — digitizing 
-              the traditional "Njangi" system widely used across Africa. Groups can pool funds, 
-              rotate payouts, and access microloans transparently and securely.
+              the traditional "Njangi" system (also known as Tontine, Susu, or Chama) widely used across Africa. 
+              Groups can pool funds, rotate payouts, and access microloans transparently and securely.
             </p>
             <ul className="feature-list">
               <li><CheckCircle2 size={18} className="text-wave-cyan" /> Digital group creation & management</li>
@@ -228,7 +228,7 @@ export default function Home() {
             <h2 className="section-title">Built Different. <span>Built for Africa.</span></h2>
             <p className="section-subtitle">
               Every technical decision we make is designed for real African contexts — 
-              from unreliable connectivity to mobile-first users.
+              from unreliable connectivity to mobile-first users across the continent.
             </p>
           </div>
           <div className="why-grid">

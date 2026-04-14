@@ -24,8 +24,8 @@ const values = [
 
 const milestones = [
   { year: '2022', title: 'Wave Founded', desc: 'Wave was established with a mission to build scalable tech solutions for Africa.', icon: <Rocket size={20} /> },
-  { year: '2023', title: 'NjangiPay Launched', desc: 'Our flagship product went live, digitalizing community savings across Cameroon.', icon: <Award size={20} /> },
-  { year: '2024', title: 'Platform Expansion', desc: 'Expanded fintech infrastructure with lending, KYC, and AI-powered features.', icon: <ShieldCheck size={20} /> },
+  { year: '2023', title: 'NjangiPay Launched', desc: 'Our flagship product went live, digitalizing community savings across Cameroon and planning for regional expansion.', icon: <Award size={20} /> },
+  { year: '2024', title: 'Platform Expansion', desc: 'Expanded fintech infrastructure with lending, KYC, and AI-powered features for broader African markets.', icon: <ShieldCheck size={20} /> },
   { year: '2025+', title: 'Africa-Wide Scale', desc: 'Growing presence across multiple African markets and industries.', icon: <Globe size={20} /> },
 ];
 
@@ -38,7 +38,7 @@ export default function About() {
         <div className="page-hero-content">
           <span className="section-label">Our Story</span>
           <h1>We Build Africa's<br />Digital Future</h1>
-          <p>A technology company rooted in Africa, building scalable and trustworthy digital solutions that empower people and businesses to thrive.</p>
+          <p>A technology company rooted in Africa, building scalable and trustworthy digital solutions that empower people and businesses to thrive across the continent.</p>
         </div>
       </section>
 
@@ -56,9 +56,9 @@ export default function About() {
             </p>
             <p style={{ marginTop: '16px' }}>
               Our team brings together engineers, designers, and product thinkers united by 
-              a single purpose: to create software that makes a lasting difference. We are not 
-              building for Silicon Valley — we are building for Douala, Nairobi, Accra, and 
-              every other city growing through digital transformation.
+              a single purpose: to create software that makes a lasting difference. We are 
+              building for cities like Douala, Nairobi, Accra, Lagos, and 
+              every other growing hub of digital transformation across Africa.
             </p>
           </div>
           <div className="about-story-visual animate-slide-right">
@@ -114,7 +114,7 @@ export default function About() {
               <div className="mv-icon"><Settings size={40} color="var(--color-wave-cyan)" /></div>
               <h3>Our Approach</h3>
               <p>
-                We combine global engineering standards with deep local knowledge. Every product 
+                We combine global engineering standards with deep African local knowledge. Every product 
                 we build is tested for real African conditions — from low-bandwidth environments 
                 to diverse device ecosystems — ensuring true accessibility.
               </p>
@@ -174,7 +174,7 @@ export default function About() {
         <div className="cta-orb cta-orb-2" />
         <div className="container cta-content">
           <h2>Want to work with us?</h2>
-          <p>We're always open to partnerships, collaborations, and great conversations.</p>
+          <p>We're always open to continental partnerships, collaborations, and great conversations.</p>
           <div className="hero-actions" style={{ justifyContent: 'center' }}>
             <Link to="/contact" className="btn btn-accent">Get in Touch</Link>
             <Link to="/solutions" className="btn btn-outline-white">Our Services</Link>
